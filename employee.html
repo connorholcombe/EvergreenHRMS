@@ -13,6 +13,11 @@
         }
       </style>
       <h1><Center>EVERGREEN HRMS</Center></h1>
+      <div style="padding-bottom: 15px;">
+        <center>
+          <button onclick="window.location.href='https://c1afw164.caspio.com/folderlogout'" >Logout</button>
+        </center>
+      </div>
     </header>
     <style>
       nav {
@@ -25,12 +30,28 @@
       }
     </style>
     </style>
-      <Center>
-        <nav>
-          <a href="index.html">Home</a> |
-          <a href="login.html">Login</a>
-        </nav>
-      </Center>
+    <Center>
+      <nav>
+        <select id="dropdown" onchange="window.location.href=this.value">
+          <option value="#">HR</option>
+            <option value="https://evergreenhrms.com/sys_admin/mydata">My Data</option>
+        </select> |
+        <select id="dropdown" onchange="window.location.href=this.value">
+          <option value="#">Calendar & Leave</option>
+            <option value="https://evergreenhrms.com/sys_admin/leaverequest">Leave Request</option>
+            <option value="https://evergreenhrms.com/sys_admin/eecalendar">Employee Calendar</option>
+        </select> |
+        <select id="dropdown" onchange="window.location.href=this.value">
+          <option value="#">Performance Evaluation</option>
+            <option value="https://evergreenhrms.com/sys_admin/perfeval">Performance Evaluation</option>
+        </select>
+      </nav>
+    </Center>
+    <style>
+      main {
+        padding-bottom: 15px;
+      }
+    </style>  
     <main>
       <style>
         .responsive-image {
