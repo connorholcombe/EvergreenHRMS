@@ -2,20 +2,31 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>EVERGREEN HRMS</title>
+    <title>Evergreen HRMS</title>
   </head>
+  <style>
+    .topborder {
+      background-color: #336600;
+      height: 20px;
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .img-evergreen_logo {
+      width: 20%;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+  </style>
+  <header>
+    <div class="topborder"></div>
+    <center>
+      <a href="https://evergreenhrms.com">
+      <img class="img-evergreen_logo" src="img/evergreen_logo.png" alt="Evergreen Solutions Logo"> </a>
+    </center>
+  </header>
   <body>
-    <header>
-      <style>
-        h1 {
-          font-family: "Verdana", sans-serif;
-          color: #336600;
-          font-size: 50px;
-          font-weight: bold;
-        }
-      </style>
-      <h1><Center>EVERGREEN HRMS</Center></h1>
-    </header>
     <style>
       nav {
         padding-bottom: 15px;
@@ -23,23 +34,23 @@
     </style>
     <style>
       nav {
-        font-family: "Verdana", sans-serif;
+        font-family: "Arial", sans-serif;
       }
     </style>
     </style>
       <Center>
         <style>
           a.nav-link {
-            color: #336600;
-            background-color: #336600;
-            color: #ffffff;
-            border: 2px solid #336600;     
+            color: #336600;  
             padding: 5px;
+            margin-right: 10px;
+            font-size: 20px;
             text-decoration: none;
             display: inline-block; 
             }
           a.nav-link:hover {
-            background-color: #294d00; /* darker color */
+            color: #ffffff;
+            background-color: #336600;
             }
         </style>
         <nav>
@@ -51,11 +62,15 @@
     <main>
       <style>
         .responsive-image {
-          width: 100%;
-          height: autopx;
+          width: 80%;
+          height: auto;
+          position: relative;
+          border: 2px solid #336600;
         }
       </style>
-      <img src="https://cdn2.editmysite.com/images/editor/theme-background/stock/Working2.jpg" class="responsive-image">
+        <center>
+          <img src="img/Home_img.jpg" class="responsive-image">
+        </center>
       <style>
         main {
           padding-bottom: 15px;
@@ -65,19 +80,28 @@
     <footer>
       <center>
         <style>
-          .footer-text {
-            font-family: "Verdana", sans-serif;
-            color: #336600;
-            font-size: 16px
-            }
+          .img-logo {
+            height: 75px;
+          }
           .copyright {
+            font-family: "Arial", sans-serif; 
             color: grey;
-            font-size: 11px
-            }
+            font-size: 13px;
+            padding-bottom: 15px;
+          }
+          .bottomborder {
+            background-color: #336600;
+            height: 20px;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+          }
         </style>
-        <p class="footer-text">Evergreen HRMS</p>
-        <p class="footer-text copyright">Copyright 2023</p>
+        <img class="img-logo" src="img/logo.jpg" alt="Evergreen Solutions Logo">
+        <p class="footer-text copyright">© 2023 Evergreen Solutions LLC. All rights reserved.</p>
       </center>
+      <div class="bottomborder"></div>
     </footer>
   </body>
 </html>

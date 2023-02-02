@@ -2,20 +2,49 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>EVERGREEN HRMS</title>
+    <title>Evergreen HRMS</title>
   </head>
   <body>
     <header>
       <style>
-        h1 {
-          font-family: "Franklin Gothic", sans-serif;
-          font-weight: bold;
+        .topborder {
+          background-color: #336600;
+          height: 20px;
+          width: 100%;
+          position: relative;
+          top: 0;
+          left: 0;
+        }
+        .img-evergreen_logo {
+          width: 20%;
+          padding-bottom: 15px;
+          padding-top: 15px;
+        }
+        .logoutbutton {
+          color: #336600;
+          font-family: "Arial", sans-serif;
+          font-size: 20px;
+          padding: 5px;
+          font-size: 20px;
+          text-decoration: none;
+          display: inline-block; 
+        }
+        .logoutbutton:hover {
+          color: #ffffff;
+          background-color: #336600;
+        }
+        nav {
+          font-family: "Arial", sans-serif;
         }
       </style>
-      <h1><Center>EVERGREEN HRMS</Center></h1>
+      <div class="topborder"></div>
+      <center>
+        <a href="https://evergreenhrms.com">
+        <img class="img-evergreen_logo" src="img/evergreen_logo.png" alt="Evergreen Solutions Logo"> </a>
+      </center>
       <div style="padding-bottom: 15px;">
         <center>
-          <button onclick="window.location.href='https://c1afw164.caspio.com/folderlogout'" >Logout</button>
+          <a class="logoutbutton" href="https://c1afw164.caspio.com/folderlogout">Logout</a>
         </center>
       </div>
     </header>
@@ -24,17 +53,6 @@
         padding-bottom: 15px;
       }
     </style>
-    <style>
-      nav {
-        font-family: "Franklin Gothic", sans-serif;
-      }
-    </style>
-    </style>
-      <Center>
-        <nav>
-          <a href="index.html">Home</a>
-        </nav>
-      </Center>
     <style>
       main {
         padding-bottom: 15px;
@@ -48,17 +66,28 @@
     <footer>
       <center>
         <style>
-          .footer-text {
-            font-family: "Franklin Gothic", sans-serif;
-            color: black;
+          .img-logo {
+            height: 75px;
           }
           .copyright {
+            font-family: "Arial", sans-serif; 
             color: grey;
+            font-size: 13px;
+            padding-bottom: 15px;
+          }
+          .bottomborder {
+            background-color: #336600;
+            height: 20px;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
           }
         </style>
-        <p class="footer-text">Evergreen HRMS</p>
-        <p class="footer-text copyright">Copyright 2023</p>
+        <img class="img-logo" src="img/logo.jpg" alt="Evergreen Solutions Logo">
+        <p class="footer-text copyright">© 2023 Evergreen Solutions LLC. All rights reserved.</p>
       </center>
+      <div class="bottomborder"></div>
     </footer>
   </body>
 </html>
