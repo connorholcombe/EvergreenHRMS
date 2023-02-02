@@ -8,7 +8,9 @@
     <header>
       <style>
         h1 {
-          font-family: "Franklin Gothic", sans-serif;
+          font-family: "Verdana", sans-serif;
+         color: #336600;
+          font-size: 50px;
           font-weight: bold;
         }
       </style>
@@ -21,14 +23,29 @@
     </style>
     <style>
       nav {
-        font-family: "Franklin Gothic", sans-serif;
+        font-family: "Verdana", sans-serif;
       }
     </style>
     </style>
       <Center>
+        <style>
+          a.nav-link {
+            color: #336600;
+            background-color: #336600;
+            color: #ffffff;
+            border: 2px solid #336600;     
+            padding: 5px;
+            text-decoration: none;
+            display: inline-block; 
+            }
+          a.nav-link:hover {
+            background-color: #294d00; /* darker color */
+            }
+        </style>
         <nav>
-          <a href="index.html">Home</a> |
-          <a href="login_sample.html">Sample</a>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="login_sample.html">Sample</a>
+          <a class="nav-link" href="login_sample.html">Contact</a>
         </nav>
       </Center>
     <main>
@@ -49,12 +66,14 @@
       <center>
         <style>
           .footer-text {
-            font-family: "Franklin Gothic", sans-serif;
-            color: black;
-          }
+            font-family: "Verdana", sans-serif;
+            color: #336600;
+            font-size: 16px
+            }
           .copyright {
             color: grey;
-          }
+            font-size: 11px
+            }
         </style>
         <p class="footer-text">Evergreen HRMS</p>
         <p class="footer-text copyright">Copyright 2023</p>
