@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Evergreen HRMS</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+    </style>
+  </head>
+  <body>
+    <style>
+      header {
+        background: #f2f2f2;
+      }
+    </style>
+    <header>
+      <style>
+        .topborder {
+          background-color: #365a38;
+          height: 30px;
+          width: 100%;
+          position: relative;
+          top: 0;
+          left: 0;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
+        .img-evergreen_logo {
+          width: 20%;
+          padding-top: 15px;
+          filter: drop-shadow(2px 2px 3px #d3d3d3);
+        }
+        .headerbutton {
+          color: #f2f2f2;
+          font-family: "Roboto", "Arial", sans-serif;
+          padding: 5px;
+          font-size: 15px;
+          text-decoration: none;
+          display: inline-block; 
+          padding-right: 15px;
+          padding-left: 15px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        .headerbutton:hover {
+          background-color: #f2f2f2;
+          color: #365a38;
+        }
+      </style>
+      <div class="topborder">
+        <a class="headerbutton" href="https://evergreenhrms.com/sample/employee/account.html">ACCOUNT</a>
+        <a class="headerbutton" href="https://c1afw164.caspio.com/folderlogout">LOGOUT</a>
+      </div>
+      <div style="width: 100%; background-color: #f2f2f2;">
+        <center>
+          <a href="employee.html">
+          <img class="img-evergreen_logo" src="../../img/Evergreen_Logo_Sage.png" alt="Evergreen Solutions Logo"> </a>
+        </center>
+      </div>
+      <style>  
+        body {
+          overflow: auto;
+          height: 100%;
+          width: 100%;
+          margin: 0 auto;
+          font-family: "Roboto", "Arial", sans-serif;
+          color: #555555;
+        }
+        .menu-title {
+          display: inline-block;
+          width: 125px;
+          font-size: 16px;
+          height: 40px;
+          line-height: 40px;
+          padding-top: 0;
+          padding-bottom: 0;
+          background: #365a38;
+          text-align: center;
+          color: #ffffff;
+          font-weight: bold;
+          text-transform: uppercase;
+          transition: 0.5s background-color;
+        }
+        .menu-title:hover {
+          background: #2A4700;
+          transition: 0.5s background;
+          transition: color .2s ease-in;
+        }
+        .menu-title:before {
+          content: "";
+          display: block;
+          height: 0;
+          border-top: 5px solid #365a38;
+          border-left: 88px solid transparent;
+          border-right: 88px solid transparent;
+          border-bottom: 0 solid #dddddd;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          z-index: 103;
+          /* transition: 0.5s 0.5s border-top ease-out, 0.5s border-top-color; */
+        }
+        ul {
+          padding: 0;
+          list-style: none;
+          background: #f2f2f2;
+          text-align: center;
+        }
+        ul li {
+          display: inline-block;
+          position: relative;
+          line-height: 21px;
+          text-align: left;
+        }
+        ul li a {
+          display: block;
+          padding: 8px 25px;
+          color: #333;
+          text-decoration: none;
+        }
+        ul li ul.dropdown {
+          min-width: 100%; /* Set width of the dropdown */
+          background: #f2f2f2;
+          display: none;
+          font-size: 15px;
+          position: absolute;
+          z-index: 999;
+          left: 0;
+        }
+        ul li:hover ul.dropdown {
+          display: block; /* Display the dropdown */
+        }
+        ul li ul.dropdown li {
+          display: block;
+        }
+        ul li ul.dropdown li:hover {
+          background: #cccccc;
+          transition: background 0.2s ease-in-out;
+          color: #333;
+          transition: color .2s ease-in;
+        }
+        ul li:hover ul.dropdown:after {
+          content: "";
+          display: block;
+          height: 0;
+          border-top: 5px solid #f2f2f2;
+          border-left: 88px solid transparent;
+          border-right: 88px solid transparent;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          z-index: 101;
+          transition: 0.2s border-top;
+        }
+      </style> 
+      <ul>
+        <li>
+          <a class="menu-title" href="#">HR</a>
+          <ul class="dropdown">
+            <li><a href="https://google.com">My Information</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="menu-title" href="#">Leave</a>
+          <ul class="dropdown">
+            <li><a href="https://evergreenhrms.com/sample/employee/leave_req">Leave Request</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="menu-title" href="#">Performance</a>
+          <ul class="dropdown">
+            <li><a href="https://evergreenhrms.com/sample/employee/pe">Performance Evaluation</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <center>
+        <iframe src="https://c1afw164.caspio.com/dp/d0624000ff3cf0a8e6274b528683" width="500" height="600" frameborder="0"></iframe>
+      </center>
+    </main>
+    <footer>
+      <center>
+        <style>
+          .img-logo {
+            height: 75px;
+          }
+          .copyright {
+            font-family: "Roboto", "Arial", sans-serif; 
+            color: grey;
+            font-size: 13px;
+            padding-bottom: 10px;
+          }
+          .bottomborder {
+            background-color: #365a38;
+            height: 10px;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+        </style>
+        <img class="img-logo" src="../../img/Evergreen_Trees_Sage.png" alt="Evergreen Solutions Logo">
+        <p class="footer-text copyright">© 2023 Evergreen Solutions LLC. All rights reserved.</p>
+      </center>
+      <div class="bottomborder"></div>
+    </footer>
+  </body>
+</html>
